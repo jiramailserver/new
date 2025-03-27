@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/" # or "path/to/your/requirements.txt"
+    schedule:
+      interval: "daily"
+    # Optional: Specify which dependencies to update
+    # dependencies:
+    #  - "requests"
+    #  - "flask"
